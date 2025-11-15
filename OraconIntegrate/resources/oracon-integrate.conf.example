@@ -1,0 +1,24 @@
+[network]
+port = 7788
+enable_discovery = true
+max_connections = 10
+
+[security]
+require_auth = true
+key_file = ~/.oracon/keys/id_ed25519
+cert_file = ~/.oracon/certs/integrate.crt
+
+[desktop]
+quality = medium
+fps = 30
+gpu_acceleration = auto
+
+[service]
+auto_start = false
+run_as_service = false
+
+[features]
+file_transfer = true
+terminal_access = true
+desktop_streaming = true
+clipboard_sync = true

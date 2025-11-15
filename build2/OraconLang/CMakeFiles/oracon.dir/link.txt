@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/oracon.dir/link.d CMakeFiles/oracon.dir/src/main.cpp.o -o ../bin/oracon  ../lib/libOraconLang.a ../lib/libOraconCore.a

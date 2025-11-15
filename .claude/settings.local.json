@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(cmake:*)",
+      "Bash(/home/aseio/source/Oracon/build/bin/oracon:*)",
+      "Bash(/home/aseio/source/Oracon/build/bin/oracon-integrate:*)",
+      "Bash(./bin/oracon:*)",
+      "Bash(touch:*)",
+      "Bash(./bin/test_math:*)",
+      "Bash(./bin/gfx_test:*)",
+      "Bash(make clean:*)",
+      "Bash(make:*)",
+      "Bash(./bin/scripted_game)",
+      "Bash(./bin/test_script_api:*)",
+      "Bash(g++:*)",
+      "Bash(./test_script_update)",
+      "Bash(build/test_script_update)",
+      "Bash(./test_update_directly:*)",
+      "Bash(./test_func_execution)",
+      "Bash(./bin/basic_agent)",
+      "Bash(./bin/claude_demo)",
+      "Bash(./bin/coding_assistant)",
+      "Bash(./bin/ai_npc_demo:*)",
+      "Bash(pkg-config:*)",
+      "Bash(cat:*)",
+      "Bash(/home/aseio/source/Oracon/OraconGfx/include/oracon/gfx/text.h)",
+      "Bash(./bin/village_of_oracon:*)",
+      "Bash(echo:*)",
+      "Bash(timeout 3 ./bin/village_of_oracon:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

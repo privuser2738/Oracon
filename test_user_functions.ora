@@ -1,0 +1,59 @@
+// Test user-defined functions
+
+// Simple func
+func greet(name) {
+    print("Hello, " + name + "!");
+}
+
+greet("World");
+greet("Alice");
+
+// Function with return value
+func add(a, b) {
+    return a + b;
+}
+
+let result = add(5, 3);
+print(result);
+
+// Function that works with arrays
+func sum_array(arr) {
+    let total = 0;
+    let i = 0;
+    while (i < len(arr)) {
+        total = total + arr[i];
+        i = i + 1;
+    }
+    return total;
+}
+
+let nums = [1, 2, 3, 4, 5];
+print(sum_array(nums));
+
+// Recursive function - factorial
+func factorial(n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+print(factorial(5));
+print(factorial(10));
+
+// Closure example
+func make_counter() {
+    let count = 0;
+    func increment() {
+        count = count + 1;
+        return count;
+    }
+    return increment;
+}
+
+let counter = make_counter();
+print(counter());
+print(counter());
+print(counter());
+
+print("All function tests completed!");

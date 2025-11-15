@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libOraconCore.a CMakeFiles/OraconCore.dir/src/common.cpp.o CMakeFiles/OraconCore.dir/src/memory.cpp.o CMakeFiles/OraconCore.dir/src/logger.cpp.o
+/usr/bin/ranlib ../lib/libOraconCore.a

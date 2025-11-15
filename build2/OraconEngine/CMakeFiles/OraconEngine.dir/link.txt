@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libOraconEngine.a CMakeFiles/OraconEngine.dir/src/core/game_loop.cpp.o CMakeFiles/OraconEngine.dir/src/core/time.cpp.o CMakeFiles/OraconEngine.dir/src/ecs/entity.cpp.o CMakeFiles/OraconEngine.dir/src/ecs/world.cpp.o CMakeFiles/OraconEngine.dir/src/physics/collision.cpp.o CMakeFiles/OraconEngine.dir/src/input/input.cpp.o CMakeFiles/OraconEngine.dir/src/scene/scene.cpp.o CMakeFiles/OraconEngine.dir/src/scene/camera.cpp.o
+/usr/bin/ranlib ../lib/libOraconEngine.a

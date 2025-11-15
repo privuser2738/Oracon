@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libOraconLang.a CMakeFiles/OraconLang.dir/src/lexer/token.cpp.o CMakeFiles/OraconLang.dir/src/lexer/lexer.cpp.o CMakeFiles/OraconLang.dir/src/parser/parser.cpp.o CMakeFiles/OraconLang.dir/src/ast/ast.cpp.o CMakeFiles/OraconLang.dir/src/interpreter/value.cpp.o CMakeFiles/OraconLang.dir/src/interpreter/environment.cpp.o CMakeFiles/OraconLang.dir/src/interpreter/interpreter.cpp.o CMakeFiles/OraconLang.dir/src/runtime/builtins.cpp.o
+/usr/bin/ranlib ../lib/libOraconLang.a

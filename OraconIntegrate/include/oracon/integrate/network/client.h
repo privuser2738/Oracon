@@ -1,0 +1,4 @@
+#ifndef ORACON_INTEGRATE_NETWORK_CLIENT_H
+#define ORACON_INTEGRATE_NETWORK_CLIENT_H
+// TODO: Client header
+#endif

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libOraconGfx.a CMakeFiles/OraconGfx.dir/src/renderer/renderer.cpp.o
+/usr/bin/ranlib ../lib/libOraconGfx.a

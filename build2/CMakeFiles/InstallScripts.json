@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/aseio/source/Oracon/build2/cmake_install.cmake",
+		"/home/aseio/source/Oracon/build2/OraconCore/cmake_install.cmake",
+		"/home/aseio/source/Oracon/build2/OraconMath/cmake_install.cmake",
+		"/home/aseio/source/Oracon/build2/OraconLang/cmake_install.cmake",
+		"/home/aseio/source/Oracon/build2/OraconIntegrate/cmake_install.cmake",
+		"/home/aseio/source/Oracon/build2/OraconGfx/cmake_install.cmake",
+		"/home/aseio/source/Oracon/build2/OraconGfx/examples/cmake_install.cmake",
+		"/home/aseio/source/Oracon/build2/OraconAuto/cmake_install.cmake",
+		"/home/aseio/source/Oracon/build2/OraconEngine/cmake_install.cmake",
+		"/home/aseio/source/Oracon/build2/OraconEngine/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

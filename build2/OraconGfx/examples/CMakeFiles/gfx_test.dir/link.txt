@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/gfx_test.dir/link.d CMakeFiles/gfx_test.dir/test_gfx.cpp.o -o ../../bin/gfx_test  ../../lib/libOraconGfx.a ../../lib/libOraconCore.a
