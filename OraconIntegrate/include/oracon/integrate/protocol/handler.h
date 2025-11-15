@@ -1,0 +1,4 @@
+#ifndef ORACON_INTEGRATE_PROTOCOL_HANDLER_H
+#define ORACON_INTEGRATE_PROTOCOL_HANDLER_H
+// TODO: Protocol handler header
+#endif
