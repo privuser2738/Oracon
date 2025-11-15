@@ -1,0 +1,19 @@
+// Test arrays
+let numbers = [1, 2, 3, 4, 5];
+let first = numbers[0];
+let third = numbers[2];
+
+let mixed = [1, "hello", 3.14, true];
+let str_elem = mixed[1];
+
+// Test maps
+let person = {name: "Alice", age: 30, city: "NYC"};
+let person_name = person["name"];
+let person_age = person["age"];
+
+// Empty collections
+let empty_array = [];
+let empty_map = {};
+
+// Simple expression to verify parsing worked
+let result = 1 + 2;

@@ -1,0 +1,9 @@
+// Super simple update test
+let callCount = 0;
+
+func update(dt) {
+    callCount = callCount + 1;
+    print("Update called: count=" + type(callCount) + ", dt=" + type(dt));
+}
+
+print("Script initialized!");

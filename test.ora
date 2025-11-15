@@ -1,0 +1,16 @@
+// Test Oracon program
+let x = 42
+let name = "Oracon"
+let pi = 3.14159
+
+func greet(name) {
+    return "Hello, " + name
+}
+
+if x > 10 {
+    let result = greet(name)
+}
+
+for i in 0..10 {
+    let square = i ** 2
+}

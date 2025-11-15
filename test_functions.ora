@@ -1,0 +1,38 @@
+// Test arrays
+let numbers = [1, 2, 3, 4, 5];
+print(numbers);
+
+let mixed = [1, "hello", 3.14, true];
+print(mixed);
+
+// Test array indexing
+print(numbers[0]);
+print(numbers[2]);
+print(mixed[1]);
+
+// Test maps
+let person = {name: "Alice", age: 30, city: "NYC"};
+print(person);
+
+// Test map indexing
+print(person["name"]);
+print(person["age"]);
+
+// Empty collections
+let empty_array = [];
+let empty_map = {};
+print(empty_array);
+print(empty_map);
+
+// Test len() function
+print(len(numbers));
+print(len(person));
+print(len("Hello"));
+
+// Test type() function
+print(type(numbers));
+print(type(person));
+print(type(42));
+print(type("text"));
+
+print("All tests completed!");

@@ -1,0 +1,48 @@
+// Test basic user-defined functions
+
+// Simple func
+func greet(name) {
+    print("Hello, " + name + "!");
+}
+
+greet("World");
+greet("Alice");
+
+// Function with return value
+func add(a, b) {
+    return a + b;
+}
+
+let result = add(5, 3);
+print("5 + 3 = " + type(result));
+print(result);
+
+// Function that works with arrays
+func sum_array(arr) {
+    let total = 0;
+    let i = 0;
+    while (i < len(arr)) {
+        total = total + arr[i];
+        i = i + 1;
+    }
+    return total;
+}
+
+let nums = [1, 2, 3, 4, 5];
+let sum = sum_array(nums);
+print("Sum of array: " + type(sum));
+print(sum);
+
+// Recursive function - factorial
+func factorial(n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+print("5! = " + type(factorial(5)));
+print(factorial(5));
+print(factorial(10));
+
+print("All basic function tests completed!");
